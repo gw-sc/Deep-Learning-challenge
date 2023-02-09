@@ -133,13 +133,13 @@ The report should contain the following:
     
     * Were you able to achieve the target model performance?
     
-      *I was not able to achieve the target of `75%`. The closest accuracy resulted at `72.91%`(4sf)*
+      *I was not able to achieve the target of `75%`. The closest accuracy resulted at `72.91%` (4sf)*
       ![Result1](Images/result1.png)
 
     * What steps did you take in your attempts to increase model performance?
 
       *In attempt to increase model performance, I trialed two more models with increased `neurons` and `hidden layers`.* 
-      *Test 2's accuracy scored `72.79%`(4sf), whilst Test 3's accuracy scored `72.69%`(4sf)*
+      *Test 2's accuracy scored `72.79%` (4sf), whilst Test 3's accuracy scored `72.69%` (4sf)*
 
       ![Optimisation2](Images/opt2.png)
       ![Result2](Images/result2.png)
