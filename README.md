@@ -138,7 +138,8 @@ The report should contain the following:
 
     * What steps did you take in your attempts to increase model performance?
 
-      *In attempt to increase model performance, I trialed two more models with increased the `neurons` and `hidden layers`. Test 2's accuracy scored `72.79%`(4sf), whilst Test 3's accuracy scored `72.69%`(4sf)*
+      *In attempt to increase model performance, I trialed two more models with increased `neurons` and `hidden layers`.* 
+      *Test 2's accuracy scored `72.79%`(4sf), whilst Test 3's accuracy scored `72.69%`(4sf)*
 
       ![Optimisation2](Images/opt2.png)
       ![Result2](Images/result2.png)
