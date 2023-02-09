@@ -112,40 +112,39 @@ The report should contain the following:
 
 2. **Results**: Using bulleted lists and images to support your answers, address the following questions.
 
-  ## Data Preprocessing
-    * What variable(s) are the target(s) for your model?
+## Data Preprocessing
+  * What variable(s) are the target(s) for your model?
 
-      *The target variable for the model is represented by the `IS_SUCCESSFUL` column, which contains binary values of either 0 or 1.*
+    *The target variable for the model is represented by the `IS_SUCCESSFUL` column, which contains binary values of either 0 or 1.*
 
-    * What variable(s) are the features for your model?
+  * What variable(s) are the features for your model?
 
-      ![Variables](Images/values.png)
+    ![Variables](Images/values.png)
 
-    * What variable(s) should be removed from the input data because they are neither targets nor features?
+  * What variable(s) should be removed from the input data because they are neither targets nor features?
 
-      ![Drop_columns](Images/drop.png)
+    ![Drop_columns](Images/drop.png)
 
-    ## Compiling, Training, and Evaluating the Model
-    * How many neurons, layers, and activation functions did you select for your neural network model, and why?
+  ## Compiling, Training, and Evaluating the Model
+  * How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
-      *The first optimisation testing contained two `hidden layers`, with 20 and 12 `neurons` in each layer respectively, and a `relu` function in each case to start small.*
-      ![Optimisation1](Images/opt1.png)
+    *The first optimisation testing contained two `hidden layers`, with 20 and 12 `neurons` in each layer respectively, and a `relu` function in each case to start small.*
+    ![Optimisation1](Images/opt1.png)
+  
+  * Were you able to achieve the target model performance?
+  
+    *I was not able to achieve the target of `75%`. The closest accuracy resulted at `72.91%`(4sf)*
+    ![Result1](Images/result1.png)
+
+  * What steps did you take in your attempts to increase model performance?
+
+    *In attempt to increase model performance, I trialed two more models with increased the `neurons` and `hidden layers`. Test 2's accuracy scored `72.79%`(4sf), whilst Test 3's accuracy scored `72.69%`(4sf)*
+
+    ![Optimisation2](Images/opt2.png)
+    ![Result2](Images/result2.png)
     
-    * Were you able to achieve the target model performance?
-    
-      *I was not able to achieve the target of `75%`. The closest accuracy resulted at `72.91%` (4sf)*
-      ![Result1](Images/result1.png)
-
-    * What steps did you take in your attempts to increase model performance?
-
-      *In attempt to increase model performance, I trialed two more models with increased `neurons` and `hidden layers`.* 
-      *Test 2's accuracy scored `72.79%` (4sf), whilst Test 3's accuracy scored `72.69%` (4sf)*
-
-      ![Optimisation2](Images/opt2.png)
-      ![Result2](Images/result2.png)
-      
-      ![Optimisation3](Images/opt3.png)
-      ![Result3](Images/result3.png)
+    ![Optimisation3](Images/opt3.png)
+    ![Result3](Images/result3.png)
 
 3. **Summary**: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
 
