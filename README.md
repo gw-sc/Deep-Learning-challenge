@@ -1,6 +1,8 @@
 # Deep-Learning-challenge
 DAV Module 21 Deep Learning Challenge
 
+*👇👇👇Results Overview at the end👇👇👇*
+
 # Unit 21 Homework: Charity Funding Predictor
 
 ## Background
@@ -96,7 +98,7 @@ Using any or all of the following methods to optimize your model:
 
 5. Save and export your results to an HDF5 file. Name the file `AlphabetSoupCharity_Optimization.h5`.
 
-### Step 4: Write a Report on the Neural Network Model
+# Step 4: Write a Report on the Neural Network Model
 
 For this part of the assignment, you’ll write a report on the performance of the deep learning model you created for AlphabetSoup.
 
@@ -104,19 +106,51 @@ The report should contain the following:
 
 1. **Overview** of the analysis: Explain the purpose of this analysis.
 
+*The Alphabet Soup foundation, a non-profit organization, is seeking a tool that can assist in identifying the most promising applicants for funding.*
+
+*The aim of this tool is to use machine learning and neural networks to evaluate the features in the given dataset and develop a binary classifier that can forecast the success potential of applicants if they receive funding from Alphabet Soup foundation.*
+
 2. **Results**: Using bulleted lists and images to support your answers, address the following questions.
 
-  * Data Preprocessing
+  ## Data Preprocessing
     * What variable(s) are the target(s) for your model?
+
+      *The target variable for the model is represented by the IS_SUCCESSFUL column, which contains binary values of either 0 or 1.*
+
     * What variable(s) are the features for your model?
+
+      ![Variables](./Images/values.png)
+
     * What variable(s) should be removed from the input data because they are neither targets nor features?
-  
-* Compiling, Training, and Evaluating the Model
+
+      ![Drop_columns](./Images/drop.png)
+
+    ## Compiling, Training, and Evaluating the Model
     * How many neurons, layers, and activation functions did you select for your neural network model, and why?
+
+      *The first optimisation testing contained two `hidden layers`, with 20 and 12 `neurons` in each layer respectively, and a `relu` function in each case to start small.*
+      ![Optimisation1](./Images/opt1.png)
+    
     * Were you able to achieve the target model performance?
+    
+      *I was not able to achieve the target of `75%`. The closest accuracy resulted at `72.91%`(4sf)*
+      ![Result1](./Images/result1.png)
+
     * What steps did you take in your attempts to increase model performance?
 
+      *In attempt to increase model performance, I trialed two more models with increased the `neurons` and `hidden layers`. Test 2's accuracy scored `72.79%`(4sf), whilst Test 3's accuracy scored `72.69%`(4sf)*
+
+      ![Optimisation2](./Images/opt2.png)
+      ![Result2](./Images/result2.png)
+      ![Optimisation3](./Images/opt3.png)
+      ![Result3](./Images/result3.png)
+
 3. **Summary**: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+
+    *To conclude my investigations, I decided to run an auto-optimisation model using `keras-tuner`. This took a while longer to run, and found that the best accuracy the model could reach was `73.36%` (4sf), with the following `hyperparameters`*
+
+    ![Auto-Optimisation](./Images/autoR.png)   
+    ![Hyperparameters](./Images/hyperparams.png)
 
 - - -
 
