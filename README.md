@@ -148,7 +148,9 @@ The report should contain the following:
 
 3. **Summary**: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
 
-    *To conclude my investigations, I decided to run an auto-optimisation model using `keras-tuner`. This took a while longer to run, and found that the best accuracy the model could reach was `73.36%` (4sf), with the following `hyperparameters`*
+    *To conclude my investigations, I decided to run an auto-optimisation model using `keras-tuner`. This took a while longer to run, and found that the best accuracy the model could reach was `73.36%` (4sf), with the following `hyperparameters`.*
+
+    *A supervised learning model would be recommended to achieve a higher accuracy, since this dataset contained a labeled training value for the target variable. The program will use that information to learn and find relationships in the data. This will help us understand the data better.*
 
     ![Auto-Optimisation](Images/autoR.png)   
     ![Hyperparameters](Images/hyperparams.png)
